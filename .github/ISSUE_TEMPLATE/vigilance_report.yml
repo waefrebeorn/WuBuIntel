@@ -1,0 +1,58 @@
+---
+name: Vigilance Report (WBI-1)
+description: See something, say something. File a Vigilance Report with the Bureau.
+title: "[WBI-1] "
+labels: [vigilance]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Form WBI-1 — Vigilance Report**
+
+        Filing this is a service, not an accusation. The Bureau believes you,
+        checks, and files. No retaliation. Ever.
+  - type: dropdown
+    id: what
+    attributes:
+      label: What did you see?
+      options:
+        - Power concentrating without accountability
+        - A rule applied to some but not others
+        - A lie told to make someone afraid
+        - Authority claiming to be above the license
+        - Penny Clause evasion (digital pennies / no physical coin)
+        - Shell-entity structuring to dodge Obligations C/D
+        - Prohibited Activity (§1.10 of the License)
+        - The cult of authority growing a new head
+        - Something else that is wrong
+      description: The last option is the most important one.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened?
+      description: Exact facts. No speculation. The Bureau files facts.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links, files, dates, names, repo paths. Anything verifiable.
+  - type: dropdown
+    id: identity
+    attributes:
+      label: Identity
+      options:
+        - Use my GitHub handle (hero status)
+        - I need anonymity (the Bureau protects you)
+    validations:
+      required: true
+  - type: checkboxes
+    id: promise
+    attributes:
+      label: The Bureau's promise
+      options:
+        - label: "I understand the Bureau will verify, file, and never retaliate"
+          required: true
