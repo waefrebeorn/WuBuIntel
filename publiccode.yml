@@ -1,0 +1,35 @@
+publiccodeYmlVersion: 0.5.0
+name: WuBuIntel
+url: https://github.com/waefrebeorn/WuBuIntel
+landingURL: https://waefrebeorn.org
+softwareVersion: "1.0.0"
+releaseDate: 2026-08-06
+platforms:
+  - web
+  - linux
+categories:
+  - digital-citizenship
+  - collaboration
+developmentStatus: beta
+softwareType: standalone/other
+description:
+  en:
+    localisedName: WuBuIntel
+    shortDescription: >-
+      The Bureau of the ~ WuBu ~ space: intelligence and vigilance.
+      Excessively compliant, vigilant, and always filing.
+    longDescription: >-
+      WuBuIntel is the vigilance organ. The WBI-1 report form,
+      the reporting doctrine, and the vigilance tool (C11) — class
+      weights with penny evasion highest, and Fengqiao escalation.
+      The Bureau watches the Bureau; the Index watches the Bureau;
+      the ledger publishes everything.
+    features:
+      - Form WBI-1 (vigilance report)
+      - Reporting doctrine and escalation
+      - The vigilance tool (C11) with Fengqiao escalation
+      - The Bureau watches the Bureau
+legal:
+  license: WaefreBeorn-Umbrella-3.0
+  mainCopyrightOwner: WaefreBeorn
+  repoOwner: waefrebeorn

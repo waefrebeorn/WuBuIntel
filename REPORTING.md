@@ -34,6 +34,14 @@ any space the license touches:
 Open a GitHub issue on `waefrebeorn/WuBuIntel` using the Vigilance
 Report template. The template is the form. Fill it out. Submit.
 
+**Then the Bureau triages it with the tool (GOV-11):** the
+`vigilance` module (WuBuCore) classifies the report, scores its
+severity 0-100, and routes it through the escalation ladder —
+resolve lowest, escalate one, escalate all. A report naming an
+official always reaches the Bureau. The ledger row is written by
+`tools/wbi1_triage.py`. Filing is not the end of the saying; the
+triage is the filing's second half.
+
 **Method B — The Mail:**
 Email the Bureau at `gov@waefrebeorn.org` with subject line
 `WBI-1: <what you saw>`. The Bureau reads the public mailbox.

@@ -1,2 +1,3 @@
 report_id,date,status,classification,summary
-WBI-0001,2026-08-06,ACTIONED,verified,The Bureau was founded. The first report is this report. We are the first ones.
+WBI-0001,2026-08-06,ACTIONED,verified,"The Bureau was founded. The first report is this report. We are the first ones."
+WBI-0002,2026-08-06,TRIAGED,verified,"Reorganization audit: Bureau had no tooling. GOV-11 files vigilance + wbi1_triage.py. Escalation ladder wired to the ledger."

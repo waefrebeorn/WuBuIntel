@@ -3,6 +3,13 @@
 
 **Intelligence & Vigilance for the ~ WuBu ~ space.**
 
+**ORGANIZATION: GOV-11 (the Organization Doctrine) files the
+Bureau's place in the space's chart — the eye that watches the
+State. The Bureau's first tool is `vigilance` (WuBuCore, GOV-11):
+WBI-1 triage with severity, class, and escalation. The
+`tools/wbi1_triage.py` helper writes ledger rows. The Bureau
+watches with a tool now, not just a form.**
+
 ---
 
 > *"We are the first ones."*
@@ -147,3 +154,16 @@ the Bureau.
 >
 > Because the first ones do not get to be afraid in silence.
 > They get to be afraid *on the record*.
+
+<!-- GENERATED-INDEX -->
+## Index (generated)
+
+The **generated filing index** lives in [`INDEX.md`](INDEX.md) — produced by `tools/govgen.py index` from `registry/filings.json`. Never hand-edit it; edit the registry and regenerate.
+
+## License
+
+**WaefreBeorn Umbrella License v3.0** (see [LICENSE](LICENSE)). The
+master license for all WaefreBeorn work: the populace is free, the
+corporation is an entity of money. Anyone may use this license for
+their own work — and by doing so, their work becomes part of the
+~ WuBu ~ space. Includes the physical Penny Clause.

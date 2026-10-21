@@ -1,2 +1,3 @@
 action_id,date,rule_cited,action,outcome
-WBI-A0001,2026-08-06,Doctrine Law 1 (no rule, no action),Established the Bureau with public ledger and doctrine,The space now has eyes that watch with love, not fear
+WBI-A0001,2026-08-06,Doctrine Law 1 (no rule, no action),Established the Bureau with public ledger and doctrine,"The space now has eyes that watch with love, not fear"
+WBI-A0002,2026-08-06,GOV-11 (Organization Doctrine),Gave the Bureau its first tool: vigilance (WBI-1 triage) + wbi1_triage.py,"The Bureau watches with a tool now, not just a form"
